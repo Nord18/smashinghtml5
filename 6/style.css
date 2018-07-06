@@ -12,9 +12,7 @@ body {
 }
 
 input {
-	background: #F1F1F1 url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJM%0D%0ASUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3Mv%0D%0AU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4%0D%0AbWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3%0D%0ALnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB3aWR0aD0iMTAwJSIgaGVpZ2h0%0D%0APSIxMDAlIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB2aWV3Qm94PSIwIDAgNjAgNjAiIGVu%0D%0AYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYwIDYwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGNp%0D%0AcmNsZSBmaWxsPSJub25lIiBzdHJva2U9IiNkZGQiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tlLW1p%0D%0AdGVybGltaXQ9IjEwIiBjeD0iMjMuNSIgY3k9IjIzLjUiIHI9IjE4LjUiLz4KPGxpbmUgZmlsbD0i%0D%0AI2RkZCIgc3Ryb2tlPSIjZGRkIiBzdHJva2Utd2lkdGg9IjYiIHN0cm9rZS1taXRlcmxpbWl0PSIx%0D%0AMCIgeDE9IjM1IiB5MT0iMzYiIHgyPSI1NiIgeTI9IjU3Ii8+Cjwvc3ZnPgo=") no-repeat;
-	background-size: 80px 80px;
-	background-position: right;
+	background: #F1F1F1;
 	color: #C2C2C2;
 	display: block;
 	margin: 0 auto;
@@ -23,6 +21,7 @@ input {
 	height: 80px;
 	font-size: 80px;
 	font-weight: bold;
+	outline: none;
 }
 
 input::-webkit-input-placeholder { 
@@ -33,116 +32,136 @@ input:focus::-webkit-input-placeholder {
 	color: transparent;
 }
 
+button {
+	background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJM%0D%0ASUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3Mv%0D%0AU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4%0D%0AbWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3%0D%0ALnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB3aWR0aD0iMTAwJSIgaGVpZ2h0%0D%0APSIxMDAlIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB2aWV3Qm94PSIwIDAgNjAgNjAiIGVu%0D%0AYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYwIDYwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGNp%0D%0AcmNsZSBmaWxsPSJub25lIiBzdHJva2U9IiNkZGQiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tlLW1p%0D%0AdGVybGltaXQ9IjEwIiBjeD0iMjMuNSIgY3k9IjIzLjUiIHI9IjE4LjUiLz4KPGxpbmUgZmlsbD0i%0D%0AI2RkZCIgc3Ryb2tlPSIjZGRkIiBzdHJva2Utd2lkdGg9IjYiIHN0cm9rZS1taXRlcmxpbWl0PSIx%0D%0AMCIgeDE9IjM1IiB5MT0iMzYiIHgyPSI1NiIgeTI9IjU3Ii8+Cjwvc3ZnPgo=");
+	width: 80px;
+	height: 80px;
+	background-color: transparent;
+	position: absolute;
+	top: 52px;
+	right: 300px;
+	outline: none;
+}
+
+section {
+	margin-top: 40px;
+	margin-left: 230px;
+}	
+
+ul {
+	display: inline-block;
+}
+
+li {
+	background: #EBEBED;
+	width: 260px;
+	height: 60px;
+	margin-bottom: 7px;
+	color: #B5B5B7;
+	font-size: 13px;
+	list-style: none;
+	padding-top: 20px;
+	padding-left: 60px;
+	margin-right: 50px;
+}
+
 h1 {
 	color: #B5B5B7;
 	font-size: 17px;
-	margin-left: 280px;
-	margin-top: 50px;
-}
-
-.people ul {
-	list-style: none;
-	margin-top: 20px;
-}
-
-.people li {
-	background: #EBEBED;
-	width: 250px;
-	height: 60px;
-	margin-bottom: 10px;
-	padding-top: 20px;
-	padding-left: 70px;
-	margin-left: 280px;
-	color: #B5B5B7;
-	font-size: 13px;
-}
-
-.people li:nth-child(1) {
-	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/avatars/SaraSoueidan.jpeg") no-repeat;
-	background-position: 5% 50%;
+	padding-bottom: 10px;
 }
 
 .people li:nth-child(2) {
-	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/avatars/RachelSmith.png") no-repeat;
-	background-position: 5% 50%;
+	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/avatars/SaraSoueidan.jpeg") no-repeat;
+	background-position: 2% 50%;
 }
 
 .people li:nth-child(3) {
-	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/avatars/PeterFinlan.jpeg") no-repeat;
-	background-position: 5% 50%;
+	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/avatars/RachelSmith.png") no-repeat;
+	background-position: 2% 50%;
 }
 
 .people li:nth-child(4) {
-	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/avatars/PatrickCox.png") no-repeat;
-	background-position: 5% 50%;
+	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/avatars/PeterFinlan.jpeg") no-repeat;
+	background-position: 2% 50%;
 }
 
 .people li:nth-child(5) {
-	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/avatars/TimHolman.jpeg") no-repeat;
-	background-position: 5% 50%;
+	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/avatars/PatrickCox.png") no-repeat;
+	background-position: 2% 50%;
 }
 
 .people li:nth-child(6) {
+	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/avatars/TimHolman.jpeg") no-repeat;
+	background-position: 2% 50%;
+}
+
+.people li:nth-child(7) {
 	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/avatars/ShaunDona.jpeg") no-repeat;
-	background-position: 5% 50%;
-}
-
-.popular ul {
-	list-style: none;
-	position: absolute;
-	top: 220px;
-}
-
-.popular li {
-	background: #EBEBED;
-	width: 250px;
-	height: 60px;
-	margin-bottom: 10px;
-	padding-top: 20px;
-	padding-left: 70px;
-	margin-left: 570px;
-	color: #B5B5B7;
-	font-size: 13px;
-}
-
-.popular li:nth-child(1) {
-	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/thumbs/PagePreloadingEffect.png") no-repeat;
-	background-position: 5% 50%;
+	background-position: 2% 50%;
 }
 
 .popular li:nth-child(2) {
-	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/thumbs/ArrowNavigationStyles.png") no-repeat;
-	background-position: 5% 50%;
+	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/thumbs/PagePreloadingEffect.png") no-repeat;
+	background-position: 2% 50%;
 }
 
 .popular li:nth-child(3) {
-	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/thumbs/HoverEffectsIdeasNew.png") no-repeat;
-	background-position: 5% 50%;
+	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/thumbs/ArrowNavigationStyles.png") no-repeat;
+	background-position: 2% 50%;
 }
 
 .popular li:nth-child(4) {
-	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/thumbs/FreebieHalcyonDays.png") no-repeat;
-	background-position: 5% 50%;
+	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/thumbs/HoverEffectsIdeasNew.png") no-repeat;
+	background-position: 2% 50%;
 }
 
 .popular li:nth-child(5) {
-	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/thumbs/ArticleIntroEffects.png") no-repeat;
-	background-position: 5% 50%;
+	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/thumbs/FreebieHalcyonDays.png") no-repeat;
+	background-position: 2% 50%;
 }
 
 .popular li:nth-child(6) {
+	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/thumbs/ArticleIntroEffects.png") no-repeat;
+	background-position: 2% 50%;
+}
+
+.popular li:nth-child(7) {
 	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/thumbs/DraggableDualViewSlideshow.png") no-repeat;
-	background-position: 5% 50%;
+	background-position: 2% 50%;
 }
 
-h2 {
-	position: absolute;
-	top: 180px;
-	left: 570px;
-	color: #B5B5B7;
-	font-size: 17px;
+.recent li:nth-child(2) {
+	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/thumbs/TooltipStylesInspiration.png") no-repeat;
+	background-position: 2% 50%;
 }
 
-.people li:hover {
+.recent li:nth-child(3) {
+	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/thumbs/AnimatedHeaderBackgrounds.png") no-repeat;
+	background-position: 2% 50%;
+}
+
+.recent li:nth-child(4) {
+	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/thumbs/OffCanvas.png") no-repeat;
+	background-position: 2% 50%;
+}
+
+.recent li:nth-child(5) {
+	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/thumbs/TabStyles.png") no-repeat;
+	background-position: 2% 50%;
+}
+
+.recent li:nth-child(6) {
+	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/thumbs/ResponsiveSVGs.png") no-repeat;
+	background-position: 2% 50%;
+}
+
+.recent li:nth-child(7) {
+	background: #EBEBED url("https://raw.githubusercontent.com/alexcss/huge-search-img/master/img/thumbs/NotificationStyles.png") no-repeat;
+	background-position: 2% 50%;
+}
+
+li:hover {
 	background-color: #E4E4E6;
+	color: #DB8B96;
 }

@@ -1,0 +1,91 @@
+html {
+	background-color: #fff;
+}
+
+body {
+font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+font-size: 18px;
+color: #464b4f;
+width: 800px;
+margin: 0 auto;
+}
+
+header {
+	background-color: #23232E;
+	color: #fff;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 80px;
+	text-transform: uppercase;
+}
+
+main p {
+	font-size: 30px;
+	color: #464b4f;
+}
+
+footer h2 {
+	text-transform: uppercase;
+	text-align: center;
+	color: #464b4f;
+	font-size: 50px;
+}
+
+footer li {
+	display: inline-block;
+	width: 200px;
+	float: left;
+	padding-left: 80px;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
