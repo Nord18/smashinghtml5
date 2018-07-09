@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:900|Roboto:300');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #eeeeee;
+}
+
+.header {
+	width: 1291px;
+	height: 852px;
+	padding-top: 185px;
+	margin-left: 155px;
+}
+
+header {
+	width: 616px;
+	height: 455px;
+	text-align: right;
+}
+
+h1 {
+	font-family: Raleway;
+    color: #303030;
+    font-size: 150px;
+    font-weight: 900;
+    line-height: 150px;
+}
+
+p {
+	font-family: Roboto;
+    color: #303030;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    margin-top: 55px;
+    padding-bottom: 30px;
+}
+
+img {
+	float: right;
+	margin-right: 107px;
+}
+
+a {
+	text-decoration: none;
+	font-family: Roboto;
+    color: #303030;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.slider {
+	margin-top: 93px;
+}
+
+button {
+	background-image: url("image/Ellipse1.png");
+	width: 11px;
+	height: 11px;
+}
+
+a:hover {
+	color: #e10011;
+}
+
+button:hover {
+	background-image: url("image/Ellipse 1 red.png");
+	width: 11px;
+	height: 11px;
+}
