@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+header {
+	height: 650px;
+	background-image: url('image/computer.jpg');
+	background-color: #3c4955;
+	text-align: center;
+	padding-top: 293px;
+}
+
+h1 {
+	font-family: "Big John";
+	font-size: 46px;
+	color: #FFF;
+}
+
+p {
+	font-family: "Slim Joe";
+	font-size: 30px;
+	color: #FFF;
+	margin-top: 32px;
+}
+
+button {
+	border: 2px solid #48bf72;
+	color: #48bf72;
+	background-color: transparent;
+	width: 138px;
+	height: 39px;
+	margin-top: 49px;
+}
