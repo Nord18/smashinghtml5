@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300i');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}	
+
+body {
+	background-color: #FFF;
+	width: 1400px;
+	height: 940px;
+	padding: 124px 140px;
+}
+
+h1 {
+	color: #171717;
+    font-size: 42px;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 42px;
+}
+
+span {
+	float: left;
+	color: #171717;
+    font-size: 110px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    font-family: PlayfairDisplay;
+    margin-right: 35px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 34px;
+	font-family: Lato;
+    color: #171717;
+    font-weight: 300;
+    text-align: left;
+    width: 1141px;
+    height: 500px;
+    white-space: pre-wrap;
+}
+ 
+ q {
+ 	font-size: 24px;
+	line-height: 34px;
+	white-space: pre;
+	text-decoration: none;
+ }
+
+
+button {
+	color: #eaa258;
+	border: 2px solid #eaa258;
+	background-color: #FFF;
+	width: 264px;
+	height: 68px;
+	margin-top: 43px;
+}
