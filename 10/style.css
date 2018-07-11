@@ -1,0 +1,169 @@
+td {
+	border: 2px solid black;
+	width: 30px;
+	height: 30px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+div {
+	width: 20px;
+	height: 20px;
+	background-color: #4F302B;
+	border-radius: 50%;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+div:nth-child(2) {
+	width: 20px;
+	height: 20px;
+	background-color: #4F302B;
+	border-radius: 50%;
+	position: absolute;
+	top: 15px;
+	left: 85px;
+}
+
+div:nth-child(3) {
+	width: 20px;
+	height: 20px;
+	background-color: #4F302B;
+	border-radius: 50%;
+	position: absolute;
+	top: 15px;
+	left: 153px;
+}
+
+div:nth-child(4) {
+	width: 20px;
+	height: 20px;
+	background-color: #4F302B;
+	border-radius: 50%;
+	position: absolute;
+	top: 15px;
+	left: 220px;
+}
+
+div:nth-child(5) {
+	width: 20px;
+	height: 20px;
+	background-color: #4F302B;
+	border-radius: 50%;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+
+div:nth-child(6) {
+	width: 20px;
+	height: 20px;
+	background-color: #4F302B;
+	border-radius: 50%;
+	position: absolute;
+	top: 50px;
+	left: 117px;
+}
+
+div:nth-child(7) {
+	width: 20px;
+	height: 20px;
+	background-color: #4F302B;
+	border-radius: 50%;
+	position: absolute;
+	top: 50px;
+	left: 187px;
+}
+
+div:nth-child(8) {
+	width: 20px;
+	height: 20px;
+	background-color: #4F302B;
+	border-radius: 50%;
+	position: absolute;
+	top: 50px;
+	left: 255px;
+}
+
+div:nth-child(9) {
+	width: 20px;
+	height: 20px;
+	background-color: #B42624;
+	border-radius: 50%;
+	position: absolute;
+	top: 85px;
+	left: 15px;
+}
+
+div:nth-child(10) {
+	width: 20px;
+	height: 20px;
+	background-color: #B42624;
+	border-radius: 50%;
+	position: absolute;
+	top: 85px;
+	left: 85px;
+}
+
+div:nth-child(11) {
+	width: 20px;
+	height: 20px;
+	background-color: #B42624;
+	border-radius: 50%;
+	position: absolute;
+	top: 85px;
+	left: 153px;
+}
+
+div:nth-child(12) {
+	width: 20px;
+	height: 20px;
+	background-color: #B42624;
+	border-radius: 50%;
+	position: absolute;
+	top: 85px;
+	left: 220px;
+}
+
+div:nth-child(13) {
+	width: 20px;
+	height: 20px;
+	background-color: #B42624;
+	border-radius: 50%;
+	position: absolute;
+	top: 118px;
+	left: 50px;
+}
+
+div:nth-child(14) {
+	width: 20px;
+	height: 20px;
+	background-color: #B42624;
+	border-radius: 50%;
+	position: absolute;
+	top: 118px;
+	left: 117px;
+}
+
+div:nth-child(15) {
+	width: 20px;
+	height: 20px;
+	background-color: #B42624;
+	border-radius: 50%;
+	position: absolute;
+	top: 118px;
+	left: 187px;
+}
+
+div:nth-child(16) {
+	width: 20px;
+	height: 20px;
+	background-color: #B42624;
+	border-radius: 50%;
+	position: absolute;
+	top: 118px;
+	left: 255px;
+}
