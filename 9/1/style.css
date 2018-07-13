@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -5,32 +7,125 @@
 	box-sizing: border-box;
 }
 
+body {
+	width: 1920px;
+}
+
+/*header*/
 header {
 	height: 650px;
 	background-image: url('image/computer.jpg');
-	background-color: #3c4955;
-	text-align: center;
-	padding-top: 293px;
 }
 
+.logo {
+	position: absolute;
+	margin-left: 390px;
+	margin-top: 36px;
+}
+
+/*nav-header*/
+.nav-header {
+	margin-left: 975px;
+}
+
+.nav-header li {
+	display: inline-block;
+	margin-top: 80px;
+	padding-right: 107px;
+}
+
+.nav-header a {
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 700;
+}
+/*nav-header*/
+
 h1 {
+	margin-top: 185px;
+	text-align: center;
 	font-family: "Big John";
 	font-size: 46px;
 	color: #FFF;
 }
 
 p {
+	text-align: center;
 	font-family: "Slim Joe";
 	font-size: 30px;
 	color: #FFF;
 	margin-top: 32px;
 }
 
-button {
+.button-header {
 	border: 2px solid #48bf72;
 	color: #48bf72;
 	background-color: transparent;
 	width: 138px;
 	height: 39px;
 	margin-top: 49px;
+	margin-left: 891px;
+}
+
+.button-header:hover {
+	background-color: #48bf72;
+	color: #ffffff;
+}
+/*header*/
+
+/*article .menu*/
+.menu {
+	height: 954px;
+}
+
+/*nav-menu*/
+.nav-menu {
+	margin-left: 629px;
+}
+
+.nav-menu li {
+	display: inline-block;
+	margin-top: 51px;
+	padding-right: 9px;
+}
+
+.nav-menu button {
+	font-family: Lato;
+    color: #3c4955;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 2px;
+    background-color: #eaeaea;
+    width: 125px;
+    height: 32px;
+    border: none;
+}
+
+.nav-menu button:hover {
+	background-color: #48bf72;
+	color: #ffffff;
+}
+/*nav-menu*/
+
+/*column-1,column-2*/
+.column-1 {
+	margin-left: 390px;
+	margin-top: 52px;
+	float: left;
+	margin-right: 41px;
+}
+
+.app {
+	display: block;
+	margin-top: 40px;
+}
+
+.column-2 {
+	margin-top: 52px;
+}
+
+.prototype {
+	margin-top: 40px;
 }

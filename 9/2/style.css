@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:900|Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Raleway:900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 
 * {
 	margin: 0;
@@ -9,45 +12,81 @@
 
 body {
 	background-color: #eeeeee;
+	width: 1500px;
 }
 
-.header {
-	width: 1291px;
-	height: 852px;
-	padding-top: 185px;
-	margin-left: 155px;
-}
-
+/*header*/
 header {
-	width: 616px;
-	height: 455px;
-	text-align: right;
+	height: 852px;
 }
 
-h1 {
+/*navbar*/
+.navbar_p {
+	font-family: Roboto;
+    color: #303030;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 27px;
+    position: absolute;
+    left: 240px;
+    top: 48px;
+}
+
+.navbar_ul {
+	margin-left: 996px;
+}
+
+.navbar_ul li {
+	display: inline-block;
+	margin-top: 64px;
+	padding-right: 51px;
+}
+
+.navbar_ul a {
+	text-decoration: none;
+	font-family: Roboto;
+    color: #303030;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+/*navbar*/
+
+header img {
+	position: absolute;
+	left: 869px;
+	top: 189px;
+}
+
+/*div header*/
+.header {
+    width: 771px;
+    height: 456px;
+    text-align: right;
+}
+
+.header h1 {
 	font-family: Raleway;
     color: #303030;
     font-size: 150px;
     font-weight: 900;
     line-height: 150px;
+    margin-left: 154px;
+    margin-top: 124px;
 }
 
-p {
+.header_p {
 	font-family: Roboto;
     color: #303030;
     font-size: 24px;
     font-weight: 300;
     line-height: 36px;
-    margin-top: 55px;
-    padding-bottom: 30px;
+    margin-left: 193px;
+    margin-top: 54px;
+    margin-bottom: 30px;
 }
 
-img {
-	float: right;
-	margin-right: 107px;
-}
-
-a {
+.header_a {
 	text-decoration: none;
 	font-family: Roboto;
     color: #303030;
@@ -56,22 +95,100 @@ a {
     line-height: 36px;
 }
 
+.header_a:hover {
+    color: #e10011;
+}
+/*div header*/
+
+/*slider*/
 .slider {
-	margin-top: 93px;
+    margin-left: 725px;
+}
+
+.slider li {
+    display: inline-block;
+    margin-top: 142px;
 }
 
 button {
-	background-image: url("image/Ellipse1.png");
-	width: 11px;
-	height: 11px;
+    background-image: url("image/Ellipse1.png");
+    width: 11px;
+    height: 11px;
 }
 
-a:hover {
-	color: #e10011;
+.slider button:hover {
+    background-image: url("image/Ellipse 1 red.png");
+    width: 11px;
+    height: 11px;
+}
+/*slider*/
+/*header*/
+
+/*maim*/
+/*article featured-work*/
+.featured-work {
+    width: 1194px;
+    height: 1500px;
+    background-color: #ffffff;
+    margin-left: 150px;
 }
 
-button:hover {
-	background-image: url("image/Ellipse 1 red.png");
-	width: 11px;
-	height: 11px;
+h2 {
+    font-family: Raleway;
+    color: #303030;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 150px;
+    text-align: center;
+    padding-top: 129px;
+}
+
+.featured-work img {
+    margin-left: 494px;
+}
+
+.featured-work p {
+    font-family: Raleway;
+    color: #303030;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 631px;
+    height: 94px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 323px;
+}
+
+/*gallery*/
+.gallery {
+    display: inline-block;
+}
+
+.gallery img:nth-child(1) {
+    margin-left: 85px;
+    margin-top: 71px;
+}
+
+.gallery img:nth-child(2) {
+    position: absolute;
+    top: 1330px;
+    left: 460px;
+}
+
+.gallery img:nth-child(3) {
+    margin-left: 86px;
+    margin-top: 34px;
+}
+
+.gallery img:nth-child(4) {
+    position: absolute;
+    top: 1755px;
+    left: 105px;
+}
+
+.gallery img:nth-child(5) {
+    position: absolute;
+    top: 1755px;
+    left: 460px;
 }
