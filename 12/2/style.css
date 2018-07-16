@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'museo_sans_rounded100';
+    src: url('museosansrounded-100-webfont.woff2') format('woff2'),
+         url('museosansrounded-100-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: url("image/Layer 5.jpg") no-repeat;
+}
+
+.product {
+	background-color: #111a28;
+	width: 686px;
+	height: 391px;
+	margin-top: 109px;
+	margin-left: 63px;
+}
+
+.product__logo {
+	margin-top: 24px;
+	margin-left: 21px;
+}
+
+.product__logo-title {
+	position: absolute;
+	margin-top: 126px;
+	left: 99px;
+}
+
+.product__colors {
+	margin-left: 179px;
+}
+
+.product__colors-list {
+	display: inline-block;
+	margin-top: 293px;
+	padding-right: 10px;
+}
+
+.product__colors-button {
+	background-color: transparent;
+	outline: none;
+}
+
+.product__color-change:hover {
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+}
+
+.card {
+	background-color: #111a28;
+	width: 217px;
+	height: 237px;
+	position: absolute;
+	margin-left: 506px;
+	top: 188px;
+}
+
+.card__name {
+	font-family: MuseoSansRounded;
+    color: #b4b6b8;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.card__descr {
+	font-family: MuseoSansRounded;
+    color: #555a62;
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 15px;
+}
+
+.card__rate-list {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.card__rate-button {
+	background-color: transparent;
+	outline: none;
+}
+
+.card__size-list {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.card__size-select {
+	outline: none;
+	background-color: transparent;
+	font-family: MuseoSansRounded;
+    color: #555a62;
+    font-size: 14px;
+    line-height: 18px;
+    border: 1px solid #555a62;
+    padding: 3px 3px;
+}
+
+.card__size-select:hover {
+	background-color: #202835;
+}
+
+.card__add {
+	font-family: MuseoSansRounded;
+    color: #555a62;
+    font-size: 14px;
+    line-height: 18px;
+	outline: none;
+	border: 1px solid #555a62;
+	width: 184px;
+	height: 40px;
+	margin-top: 15px;
+	background-color: #111a28;
+}
+
+.card__add:hover {
+	background-color: #202835;
+}
