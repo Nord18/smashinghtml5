@@ -1,1 +1,1 @@
-Nord18.github.io/smashinghtml5
+https://nord18.github.io/smashinghtml5/
