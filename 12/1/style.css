@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: url("image/bg_t.png") no-repeat;
+	width: 876px;
+	height: 627px;
+}
+
+.header__logo {
+	position: absolute;
+	margin-left: 66px;
+	margin-top: 26px;
+}
+
+.header__menu {
+	margin-left: 269px;
+}
+
+.header__item {
+	display: inline-block;
+	margin-top: 26px;
+	padding-right: 48px;
+}
+
+.header__link {
+	text-decoration: none;
+	font-family: Roboto;
+    color: #ffffff;
+    font-size: 12.14px;
+    font-weight: 300;
+}
+
+.header__link:hover {
+	background: url("image/link hover.png") no-repeat;
+	background-position: bottom;
+	padding-bottom: 7px;
+}
+
+.header__image {
+	position: absolute;
+	margin-top: -12px;
+	margin-left: 791px;
+}
+
+.product {
+	width: 750px;
+	height: 428px;
+	background-image: url("image/img_h.jpg");
+	margin-left: 62px;
+	margin-top: 66px;
+}
+
+.product__add {
+	position: absolute;
+	margin-top: 336px;
+	margin-left: 458px;
+}
+
+.product__imgs {
+	margin-left: 176px;
+}
+
+.product__imgs-list {
+	list-style: none;
+	display: inline-block;
+	padding-right: 18px;
+	margin-top: 364px;
+}
+
+.product__card {
+	background-color: #ffffff;
+	width: 248px;
+	height: 428px;
+	position: absolute;
+	left: 564px;
+	top: 110px;
+}
+
+.product__close {
+	margin-left: 223px;
+	margin-top: 10px;
+}
+
+.product__new {
+	margin-left: 32px;
+	margin-top: 20px;
+}
+
+.product__name {
+	font-family: Roboto;
+    color: #000000;
+    font-size: 24px;
+    width: 195px;
+    margin-top: 13px;
+    margin-left: 33px;
+}
+
+.product__features {
+	font-family: Roboto;
+    color: #5e4fff;
+    font-size: 24px;/
+}
+
+.product__rate {
+	margin-left: 94px;
+}
+
+.product__rate-list {
+	display: inline-block;
+	margin-top: 19px;
+}
+
+.product__rate-button {
+	background-image: url("image/Forma 1.png");
+	width: 9px;
+	height: 9px;
+	background-color: transparent;
+	outline: none;
+}
+
+.product__rate-button--select {
+	background-image: url("image/Forma 2.png");
+	width: 9px;
+	height: 9px;
+	background-color: transparent;
+	outline: none;
+}
+
+.product__rate-button:hover {
+	background-image: url("image/Forma 2.png");
+	width: 9px;
+	height: 9px;
+}
+
+.product__card-name {
+    font-family: Roboto;
+    color: #000000;
+    font-size: 12px;
+    margin-left: 33px;
+    margin-top: 19px;
+    font-weight: 900;
+    position: absolute;
+    top: 150px;
+}  
+
+.product__price {
+	font-family: Roboto;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 300;
+    margin-left: 33px;
+    margin-top: 5px;
+    font-weight: 900;
+}
+
+.product__name-size {
+	font-family: Roboto;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 900;
+    margin-left: 33px;
+    margin-top: 8px;
+}
+
+.product__size {
+	margin-left: 33px;
+}
+
+.product__size-list {
+	display: inline-block;
+	padding-right: 25px;
+	margin-top: 11px;
+}
+
+.product__size-button {
+    background-color: transparent;
+    outline: none;
+    font-family: Roboto;
+    color: #000000;
+    font-size: 14.57px;
+    font-weight: 900;
+}
+
+.product__size-button:focus {
+	border: 2px solid black;
+	padding: 4px 4px;
+}
+
+.product__add-to-cart {
+	position: absolute;
+	margin-top: 41px;
+	margin-left: 33px;
+}
+
+.product__wishlist {
+	position: absolute;
+	margin-top: 74px;
+	margin-left: 33px;
+}
