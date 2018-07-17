@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'misobold';
+    src: url('miso-bold-webfont.woff2') format('woff2'),
+         url('miso-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'misolight';
+    src: url('miso-light-webfont.woff2') format('woff2'),
+         url('miso-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'misoregular';
+    src: url('miso-regular-webfont.woff2') format('woff2'),
+         url('miso-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 1200px;
+    height: 600px;
+    background-color: #fdde7e;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+}    
+
+.ba-1 {
+    background-color: #ffffff;
+    width: 366px;
+    height: 446px;
+}
+
+.ba-2 {
+    background-color: #ffffff;
+    width: 366px;
+    height: 506px;
+}
+
+.ba-3 {
+    background-color: #ffffff;
+    width: 366px;
+    height: 446px;
+}
+
+h1 {
+    font-family: Miso;
+    color: #02995b;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+img {
+    margin-left: 124px;
+    margin-top: 24px;
+}
+
+.ba-2 img {
+    margin-left: 124px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: Miso;
+    color: #333333;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 34px;
+    text-align: center;
+}
+
+.ba-2 h2 {
+    margin-top: 40px;
+}
+
+p {
+    font-family: Miso;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-top: 40px;
+    margin-left: 107px;
+    width: 130px;
+    text-align: center;
+}
