@@ -43,11 +43,7 @@ body {
 .product__colors-list {
 	display: inline-block;
 	margin-top: 293px;
-<<<<<<< HEAD
-	padding-right: 10px;
-=======
 	padding-right: 8px;
->>>>>>> master
 }
 
 .product__colors-button {
@@ -55,14 +51,11 @@ body {
 	outline: none;
 }
 
-<<<<<<< HEAD
-=======
 .product__color-change {
 	border: 2px solid transparent;
 	border-radius: 50%;
 }
 
->>>>>>> master
 .product__color-change:hover {
 	border: 2px solid #ffffff;
 	border-radius: 50%;
