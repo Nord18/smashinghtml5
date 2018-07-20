@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Harold Finch</h1>
+		<p>Your Total</p>
+		<p class="price">$88</p>
+	</header>
+	<main>
+		<form action="#" method="get" autocomplete="on">
+			<label>
+				<p class="card-number">Credit card number</p>
+			<input class="number" type="number" name="credit card number" placeholder="4321">
+		    </label>
+			<label>
+				<p class="date">Expiration date</p>
+				<select class="month" name="month">
+					<option>Month</option>
+				</select>
+				<select class="year" name="year">
+					<option>Year</option>
+				</select>
+			</label>
+			<label>
+				<p class="cvv">CVV</p>				
+				<input class="cvv-number" type="number" name="cvv-number">
+				<p class="dscr">3 or 4 digits - view example</p>
+			</label>				
+			<button name="pay" value="submit">Pay</button>
+		</form>
+		<p class="footer"><a href="#">Cancel order</a></p>
+	</main>
+</body>
+</html>
