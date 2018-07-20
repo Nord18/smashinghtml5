@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background: url("image/unsplash.jpg") no-repeat;
+	padding-top: 35px;
+	padding-left: 232px;
+}
+
+header {
+	background-color: #efe5aa;
+	width: 336px;
+	height: 71px;
+	padding-top: 24px;
+	padding-left: 23px;
+}
+
+main {
+	background-color: #f5f5f5;
+	width: 336px;
+	height: 460px;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+header h1 {
+	font-family: Montserrat;
+    color:  #6e7f7b;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+header p {
+	font-family: Montserrat;
+    color: #a6a28d;
+    font-size: 10px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+}
+
+.price {
+	font-family: Montserrat;
+    color:  #637570;
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    margin-left: 220px;
+    top: 50px;
+}
+
+.card-number {
+	font-family: Montserrat;
+    color: #9eabad;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.number {
+	width: 288px;
+	height: 44px;
+	padding-left: 10px;
+	border: 1px transparent;
+}
+
+.number:hover {
+	border-color: #7fcddf;
+}
+
+input::-webkit-input-placeholder {
+	font-family: Montserrat;
+    color: #727f82;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+input:focus::-webkit-input-placeholder {
+	opacity: 0; 
+	transition: opacity 0.3s ease;
+}
+
+.date {
+	font-family: Montserrat;
+    color: #9eabad;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+.month {
+	font-family: Montserrat;
+    color: #727f82;
+    font-size: 13px;
+    font-weight: 400;
+    width: 176px;
+    height: 44px;
+    padding-left: 10px;
+    border: 1px transparent;
+}
+
+.month:hover {
+	border-color: #7fcddf;
+}
+
+.year {
+	font-family: Montserrat;
+    color: #727f82;
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 10px;
+    width: 96px;
+    height: 44px;
+    margin-left: 15px;
+    border: 1px transparent;
+}
+
+.year:hover {
+	border-color: #7fcddf;
+}
+
+.cvv {
+	font-family: Montserrat;
+    color: #9eabad;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+.cvv-number {
+	width: 96px;
+	height: 44px;
+	float: left;
+	border: 1px transparent;
+	margin-right: 14px;
+}
+
+.cvv-number:hover {
+	border-color: #7fcddf;
+}
+
+.dscr {
+	font-family: Montserrat;
+    color: #9eabad;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+button {
+	position: absolute;
+	width: 288px;
+	height: 48px;
+	left: 252px;
+	top: 460px;
+	font-family: Montserrat;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #26b167;
+}
+
+.footer {
+	clear: both;
+    position: absolute;
+    top: 533px;
+    left: 360px;
+}
+
+a {
+	text-decoration: none;
+	font-family: Montserrat;
+    color: #9eabad;
+    font-size: 12px;
+    font-weight: 400;
+}
