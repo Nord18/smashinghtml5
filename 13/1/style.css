@@ -149,10 +149,23 @@
 	width: 360px;
 }
 
-.footer__img {
-	float: left;
+.img__wrapper {
+	width: 30px;
+	height: 28px;
 	margin-top: 78px;
-	padding-right: 13px;
+	float: left;
+	margin-right: 13px;
+}
+
+.footer__img {
+	animation-name: identifier;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.footer__img:hover {
+	animation-play-state: paused;
 }
 
 .footer__text {
@@ -162,4 +175,13 @@
     font-size: 13px;
     font-weight: 700;
     line-height: 30px;
+}
+
+@keyframes identifier {
+	0% { 
+		transform: rotate(0deg);
+	 }
+	100% { 
+		transform: rotate(360deg);
+	 }
 }
