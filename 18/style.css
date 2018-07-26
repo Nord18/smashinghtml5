@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+	width: 1920px;
+}
+
+.header {
+	background: url("image/hero-bg.jpg") no-repeat;
+	width: 1920px;
+	height: 1072px;
+	padding-top: 285px;
+}
+
+.header__logo {
+	margin-left: 750px;
+	padding-bottom: 94px;
+}
+
+.header__title {
+	font-family: Lato;
+    color: #ffffff;
+    font-size: 53.9px;
+    font-weight: 700;
+    text-align: center;
+    width: 632px;
+    margin-left: 570px;
+    padding-bottom: 52px;
+}
+
+
+.header__dscr {
+	font-family: Lato;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    width: 406px;
+    margin-left: 690px;
+}
