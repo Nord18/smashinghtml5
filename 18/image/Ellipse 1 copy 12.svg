@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="35px" height="37px" viewBox="0 0 35 37">
+<filter filterUnits="objectBoundingBox" x="0.00" y="0.00" width="100.00" height="100.00" id="filter0">
+<feFlood flood-color="rgb(59,59,59)" result="coFloodOut1"/>
+<feComposite in="coFloodOut1" in2="SourceAlpha" operator="in" result="coOverlay1"/>
+<feBlend in="coOverlay1" in2="SourceGraphic" mode="normal" result="colorOverlay1"/>
+</filter>
+<g transform="matrix(0.38 0.00 0.00 0.38 0.00 0.00)" filter="url(#filter0)"><path fillRule="evenodd" d="M 83.7 93C 83.7 93 47 22.34 47 22.34 47 22.34 10.3 93 10.3 93 10.3 93 83.7 93 83.7 93M 87 95C 87 95 7 95 7 95 7 95 47 18 47 18 47 18 87 95 87 95 87 95 87 95 87 95Z" fill="rgb(255,255,255)"/><path fillRule="evenodd" d="M 46.5 91C 71.04 91 91 71.04 91 46.5 91 21.96 71.04 2 46.5 2 21.96 2 2 21.96 2 46.5 2 71.04 21.96 91 46.5 91M 46.5 93C 20.82 93-0 72.18-0 46.5-0 20.82 20.82-0 46.5-0 72.18-0 93 20.82 93 46.5 93 72.18 72.18 93 46.5 93 46.5 93 46.5 93 46.5 93Z" fill="rgb(245,247,251)"/><circle cx="47.00" cy="93.00" r="5.00" fill="rgb(255,255,255)"/><circle cx="84.00" cy="93.00" r="5.00" fill="rgb(255,255,255)"/><circle cx="7.00" cy="93.00" r="5.00" fill="rgb(255,255,255)"/></g></svg>
