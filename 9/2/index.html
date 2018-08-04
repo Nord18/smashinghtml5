@@ -7,38 +7,53 @@
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<header>
-		<p class="navbar_p">ProductMan</p>
-		<ul class="navbar_ul">
-			<li><a href="#">Recent Work</a></li>
-			<li><a href="#">Featured Product</a></li>
-			<li><i class="fa fa-align-justify" aria-hidden="true"></i></li>
+	<header class="header-navbar">
+		<p class="header-navbar__text">ProductMan</p>
+		<ul class="header__navbar">
+			<li class="header__navbar-list"><a class="header__navbar-link" href="#">Recent Work</a></li>
+			<li class="header__navbar-list"><a class="header__navbar-link" href="#">Featured Product</a></li>
+			<li class="header__navbar-list"><i class="fa fa-align-justify" aria-hidden="true"></i></li>
 		</ul>
-		<img src="image/image.png" alt="image"/>		
+		<img class="header__pic" src="image/image.png" alt="product"/>		
 		<div class="header">
-		<h1>Black& White</h1>
-	    <p class="header_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-	    <a class="header_a" href="#">View Project</a>
+		<h1 class="header__title">Black& White</h1>
+	    <p class="header__dscr">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+	    <a class="header__link" href="#">View Project</a>
 	    </div>
-	    <ul class="slider">
-	    	<li><button name="slide"></button></li>
-	        <li><button name="slide"></button></li>
-	        <li><button name="slide"></button></li>
+	    <ul class="header__slider">
+	    	<li class="header__slider-list"><button class="header__btn" name="slide"></button></li>
+	        <li class="header__slider-list"><button class="header__btn" name="slide"></button></li>
+	        <li class="header__slider-list"><button class="header__btn" name="slide"></button></li>
 	    </ul>
 	</header>
 	<main>
-		<article class="featured-work">
-			<h2>Featured Product</h2>
-			<img src="image/underline.png" alt="underline">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			<div class="gallery">
-				<img src="image/speaker-pill-white-standard-thrqrtleft.jpg">
-				<img src="image/beats-by-dre-studio-red-highdefinition-headphones.jpg">
-				<img src="image/Rectangle 3.jpg">
-				<img src="image/Casual-Shoes-For-Men-2.jpg">
-				<img src="image/tumblr_nko8p7po0T1qddxjwo3_1280.jpg">
+		<article class="featured">
+			<h2 class="featured__title">Featured Product</h2>
+			<img class="featured__pic" src="image/underline.png" alt="underline">
+			<p class="featured__dscr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<div class="featured__gallery">
+				<img class="featured__gallery-img" src="image/speaker-pill-white-standard-thrqrtleft.jpg">
+				<img class="featured__gallery-img" src="image/beats-by-dre-studio-red-highdefinition-headphones.jpg">
+				<img class="featured__gallery-img" src="image/Rectangle 3.jpg">
+				<img class="featured__gallery-img" src="image/Casual-Shoes-For-Men-2.jpg">
+				<img class="featured__gallery-img" src="image/tumblr_nko8p7po0T1qddxjwo3_1280.jpg">
 			</div>
 		</article>
 	</main>
+	<footer class="footer">
+		<h3 class="footer__caption">PRODUCTMAN NEWS</h3>
+		<p class="footer__dscr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<form class="footer__form" action="#" method="get">
+			<input class="footer__email" type="email" name="email" placeholder="Enter your email address">
+			<button class="footer__btn">SUBSCRIBE</button>
+			<ul class="social">
+				<li class="social__list"><a class="social__link" href="#"><img class="social__img" src="image/fb.png" alt="facebook"></a></li>
+				<li class="social__list"><a class="social__link" href="#"><img class="social__img" src="image/tw.png" alt="twitter"></a></li>
+				<li class="social__list"><a class="social__link" href="#"><img class="social__img" src="image/yt.png" alt="youtube"></a></li>
+				<li class="social__list"><a class="social__link" href="#"><img class="social__img" src="image/me.png" alt="me"></a></li>
+			</ul>
+		</form>
+		<p class="footer__copyright">© Copyright Your Company ltd 2016. All Rights Reserved.</p>
+	</footer>
 </body>
 </html>
