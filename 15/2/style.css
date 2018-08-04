@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+body {
+	width: 1300px;
+}
+
 .header {
 	background: url("image/Photo Filter 1.jpg") no-repeat;
 	width: 1300px;
@@ -118,9 +122,6 @@
 }
 
 .benefits {
-	width: 650px;
-	display: flex;
-	margin: auto;
 	padding-bottom: 100px;
 }
 
@@ -130,7 +131,7 @@
     font-size: 30px;
     font-weight: 700;
     line-height: 48px;
-    text-align: center;
+    margin-left: 528px;
 }
 
 .benefits__dscr {
@@ -140,6 +141,8 @@
     font-weight: 400;
     line-height: 30px;
     text-align: center;
+    width: 680px;
+    margin-left: 293px;
 }
 
 .benefit-list {
@@ -198,9 +201,6 @@
 }
 
 .team {
-	display: flex;
-	margin: auto;
-	width: 616px;
 	padding-bottom: 90px;
 }
 
@@ -220,6 +220,8 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+    width: 651px;
+    margin-left: 293px;
 }
 
 .team-members {
@@ -241,7 +243,6 @@
 }
 
 .footer {
-	width: 1300px;
 	height: 330px;
 	background-color: #7beec7;
 	padding-top: 40px;
@@ -261,7 +262,7 @@
 .footer__btn {
 	background-color: #ffffff;
 	width: 165px;
-	height: 49px;
+	height: 60px;
 	font-family: Montserrat;
     color: #7beec7;
     font-size: 14px;
@@ -275,8 +276,7 @@
 }
 
 .field {
-	width: 556px;
-	height: 230px;
+	height: 250px;
 	background-color: #ffffff;
 	position: absolute;
 	left: 630px;
@@ -334,14 +334,14 @@
     font-size: 14px;
     font-weight: 700;
     line-height: 48px;
-    position: absolute;
-    right: 20px;
+    /* position: absolute;
+    right: 20px; */
     outline: none;
+    margin-left: -139px;
 }
 
 .field__btn:hover {
 	background-color: #ffffff;
 	color: #cdcdcd;
-	border: 1px solid #e5e5e5;
-	border-left: none;
+	border: 1px solid #7beec7;
 }
