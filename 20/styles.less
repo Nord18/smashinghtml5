@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500|Roboto:900');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	background: url("image/Rectangle 2.jpg") no-repeat;
+	width: 1920px;
+	height: 998px;
+	padding-top: 64px;
+}
+
+.subtitle {
+	font-family: Raleway;
+    color: #898f8f;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+.title {
+	font-family: Roboto;
+    color: #ffcc00;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 66px;
+    text-align: center;
+}
+
+.img {
+	position: absolute;
+	top: 382px;
+	left: 472px;
+}
+
+.card {
+	position: absolute;
+	top: 377px;
+	left: 1140px;
+	width: 416px;
+	text-align: center;
+	&__title {
+		font-family: Roboto;
+        color: #666666;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 24px;
+        padding-bottom: 50px;
+        border-bottom: 2px solid #ffcc00;     
+	}
+	&__subtitle {
+		font-family: Raleway;
+        color: #666666;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        margin-top: 40px;
+        padding-bottom: 33px;
+	}
+	&__dscr {
+		font-family: Raleway;
+        color: #333333;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        padding-bottom: 15px;
+	}
+	&__box {
+		padding-bottom: 26px;
+	}
+	&__btn {
+		width: 120px;
+		height: 30px;
+		background-color: transparent;
+		border: 2px solid #ffcc00;
+		font-family: Roboto;
+        color: #666666;
+        font-size: 14px;/* Приближение из-за подстановки шрифтов */
+        font-weight: 900;
+        line-height: 24px;
+        &:hover {
+        	color: #ffcc00;
+        }
+	}
+}
+
+.socials {
+	padding-bottom: 30px;
+     &__list {
+	 display: inline-block;
+	 padding-right: 5px;
+     }
+     &__pic {
+     	&:hover {
+     		transform: scale(1.3,1.3);
+     	}
+     }
+}
+
+.form {
+	position: absolute;
+	top: 925px;
+	left: 1039px;
+	display: inline-block;
+	&__btn {
+		background-color: transparent;
+		border: 1px solid transparent;
+	}
+}
+
+.btn__arrows {
+	position: absolute;
+	top: 569px;
+	left: 400px;
+	display: flex;
+	display: flex;
+	justify-content: center;
+	&--left {
+	background: url("image/angle left icon.png") no-repeat;
+	width: 13px;
+	height: 23px;
+	&:hover {
+		transform: scale(2,2);
+	  }
+    }
+    &--right {
+	background: url("image/angle right icon.png") no-repeat;
+	width: 13px;
+	height: 23px;
+	margin-left: 1200px;
+	&:hover {
+		transform: scale(2,2);
+	  }
+    }
+}
