@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Raleway:300,400,700');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+	width: 1414px;
+	height: 998px;
+	background-color: #9789f9;
+}
+
+.cont {
+	display: -ms-flexbox;
+	width: 1414px;
+	height: 998px;
+	justify-content: center;
+	align-items: center;
+}
+
+.ui {
+	width: 327px;
+	height: 634px;
+	margin-right: 22px;
+	background: #F5F4F9 url("image/Curv-shape.png") no-repeat;
+	background-position: center;
+	text-align: center;
+	padding-top: 50px;
+}	
+
+.popular {
+	width: 455px;
+	height: 691px;
+	background: #F5F4F9 url("image/Curv-shape2.png") no-repeat;
+	background-position: center;
+	text-align: center;
+	padding-top: 70px;
+}
+
+.web {
+	width: 327px;
+	height: 634px;
+	margin-left: 22px;
+	background: #F5F4F9 url("image/Curv-shape.png") no-repeat;
+	background-position: center;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.web__price::before,
+.popular__price::before,
+.ui__price::before {
+	content: "$";
+	font-family: Raleway;
+    color: #181818;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.ui__price,
+.web__price,
+.popular__price {
+	font-family: Raleway;
+    color: #181818;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.ui__hr {
+	font-family: Raleway;
+    color: #181818;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.ui__title,
+.web__title,
+.popular__title {
+	font-family: Raleway;
+    color: #181818;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.ui__item,
+.popular__item,
+.web__item {
+	font-family: Raleway;
+    color: #181818;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 53px;
+}
+
+.popular__btn {
+	background-color: #fd8d7b;
+    box-shadow: 2px 4px 18px 0px rgba(253, 141, 123, 0.31);
+    width: 203px;
+    height: 54px;
+    border-radius: 30%;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 53px;
+}
+
+.ui__btn,
+.web__btn {
+	background-color: #6fcffb;
+    box-shadow: 2px 4px 18px 0px rgba(133, 192, 247, 0.31);
+    width: 203px;
+    height: 54px;
+    border-radius: 30%;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 53px;
+}
+
+.popular__item {
+	white-space: pre;
+}
